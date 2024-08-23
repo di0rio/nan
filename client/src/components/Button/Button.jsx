@@ -1,10 +1,11 @@
-import styles from "./Button.module.css"
-import MuiButton from "@mui/material/Button"
+import styles from "./Button.module.css";
 
-const Button = ({children, img, link}) => {
+const Button = ({ children, img, link }) => {
   return (
-    <MuiButton variant="contained" href={link}>{children}</MuiButton>
-  )
-}
+    <div>
+      <div>oi</div>
+    </div>
+  );
+};
 
-export default Button
+export default Button;

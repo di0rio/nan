@@ -1,0 +1,51 @@
+.back {
+    background-image: url("../../assets/imgFundo.png");
+    /* Outras propriedades para ajustar o fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 700px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55%;
+    padding: 5px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.links{
+    width: 50%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+}
+
+.links a{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+}
+
