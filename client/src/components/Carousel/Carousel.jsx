@@ -6,9 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import jogo from "../../assets/novidade.png";
-import site from "../../assets/novidade.png";
-import jogo2 from "../../assets/novidade.png";
+import jogo from "../../assets/novidade.jpg";
+import site from "../../assets/novidade.jpg";
+import jogo2 from "../../assets/novidade.jpg";
 
 const Carousel = () => {
   const slides = [jogo, site, jogo2];
@@ -20,7 +20,6 @@ const Carousel = () => {
         navigation
         pagination
         loop
-        
       >
         {slides.map((slide) => (
           <SwiperSlide>
