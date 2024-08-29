@@ -12,16 +12,16 @@
 .ContainerCard {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   margin-top: 0.65em;
   gap: 1em;
 }
 
-.Card {
+.Card1 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 490px;
-  height: 460px;
+  height: 460px; 
   flex-shrink: 0;
   border-radius: 10px;
 }
