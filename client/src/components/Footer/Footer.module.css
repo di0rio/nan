@@ -2,6 +2,9 @@
   background-color: #24184c;
   color: #ffffff;
   padding: 50px 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .container {
@@ -18,52 +21,72 @@
 .col {
   flex: 1;
   list-style: none;
+  height: 220px;
 }
+
 
 .col li {
   list-style: none;
+  height: 28px;
+  margin-left: -40px;
 }
 
-.social {
-  height: 10px;
-  list-style: none;
-  display: flex;
-  gap: 10px;
+.col h3{
+  height: 35px;
 }
 
-.social li {
-  margin-right: 10px;
-  width: 25px;
+.col p{
+  height: 95px;
+  
+}
+
+
+
+
+.email{
+  width: 215px;
   height: 50px;
-}
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  outline: 2px solid #7DA9FF;
+  background-color: #24184C;
+  color: #ffffff;
 
-.submeter{
-  display: flex;
  
 }
 
-.email input{
-  width: 200px;
-  height: 35px;
-  border-radius: 7px;
-  opacity: 50%;
+
+
+
+.submeter button{
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: rgb(0, 0, 0);
+  
 }
 
-.enviar button{
-width: 100px;
-height: 40px;
-border-radius: 7px;
 
+.formulario {
+  display: flex;
 }
+
 
 ion-icon {
+  color: rgb(255, 255, 255);
   height: 22px;
   width: 22px;
   margin-top: 0.55em;
+margin-right: 7px;
 }
 
 ion-icon:hover {
-  color: grey;
+  color: rgb(226, 218, 218);
   transition: 0.5s;
   cursor: pointer;
 }
