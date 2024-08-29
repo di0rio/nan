@@ -20,7 +20,7 @@ export const PaginaInicial = () => {
           <h1>Projetos</h1>
         </div>
         <div className={styles.Card}>
-          <Projetos desc={"Jogo/Site Aquaguardians"}/>
+          <Projetos />
         </div>
       </div>
     </div>

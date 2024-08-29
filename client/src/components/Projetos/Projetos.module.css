@@ -11,22 +11,73 @@
 
 .ContainerCard {
   display: flex;
-  flex-direction: row;
-  /* align-items: center;
-  justify-content: center; */
+  flex-direction: column;
   margin-top: 0.65em;
   gap: 1em;
 }
 
-.Card1 {
-  background-color: rgba(52, 52, 52, 0.4);
-  width: 490px;
-  height: 460px; 
-  flex-shrink: 0;
-  border-radius: 10px;
+.Bloco{
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
 }
 
-.Card img{
-  border-radius: 10px;
+.Card1 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 800px;
+  height: 525px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.Card2 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 610px;
+  height: 525px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.Card3 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 515px;
+  height: 380px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+.Card4 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 275px;
+  height: 380px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.Card5 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 610px;
+  height: 380px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.Card6 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 800px;
+  height: 380px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.Card7 {
+  background-color: rgba(52, 52, 52, 0.4);
+  width: 610px;
+  height: 380px; 
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+img{
+  border-radius: 3px;
   border: none;
 }
