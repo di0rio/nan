@@ -1,6 +1,119 @@
 .sobre {
     background-color: #1C1042;
 }
+
+
+.sobre p{
+    color: white;
+}
+
+
+
+.sobre h2{
+    color: white;
+}
+
+
+.sobre h3{
+    color: white;
+height: 70px;
+}
+
+
+.sobre h4{
+    color: white;
+}
+
+
+
+.Card1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Card1 p{
+    position: relative;
+    left: 100px;
+    width: 550px;
+    padding: 60px;
+
+}
+
+.Card1 h4{
+    
+}
+
+
+.Card2{
+
+    border-radius: 10px;
+        width: 13em;
+        height: 15em;
+       position: relative;
+       left: 1200px;
+}
+
+.Card2 p {
+    width: 550px;
+    padding: 60px;
+    margin-left: -700px;
+    position: relative; 
+    top: -240px;
+
+}
+
+
+
+
+.Card3{
+    display: flex;
+    flex-direction: row;
+}
+
+.Card3 p {
+    position: relative;
+    left: 100px;
+    width: 550px;
+    padding: 60px;
+}
+
+
+.Card4{
+    
+        border-radius: 10px;
+        width: 13em;
+        height: 15em;
+       position: relative;
+       left: 1200px;
+}
+
+
+
+.Card4 p{
+    position: relative;
+    left: 100px;
+    width: 550px;
+    padding: 60px;
+}
+
+
+.Card5{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+    
+}
+
+.Card5 p{
+    position: relative;
+    left: 100px;
+    width: 550px;
+    padding: 60px;
+}
+
+
   
   ion-icon {
     color: rgb(255, 255, 255);
