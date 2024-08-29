@@ -33,39 +33,100 @@ export const Suporte = () => {
               <h2 style={{ padding: "0rem 1em" }}>Filtros</h2>
             </AccordionSummary>
 
-            <AccordionDetails>
+            <AccordionDetails
+              style={{
+                color: "white",
+              }}
+            >
               <div className={styles.containerFiltro}>
                 <div className={styles.containerFiltroDetails}>
                   <h3>Produtos</h3>
                   <FormControlLabel
-                    control={<Checkbox />}
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
                     label="AquaGuardians"
                   />
-                  <FormControlLabel control={<Checkbox />} label="DevFlix" />
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
+                    label="DevFlix"
+                  />
                 </div>
                 <div className={styles.containerFiltroDetails}>
                   <h3>Data</h3>
                   <FormControlLabel
-                    control={<Checkbox />}
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
                     label="Mais recente"
                   />
                   <FormControlLabel
-                    control={<Checkbox />}
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
                     label="Mais antigo"
                   />
                 </div>
                 <div className={styles.containerFiltroDetails}>
                   <h3>Problemas</h3>
-                  <FormControlLabel control={<Checkbox />} label="Pagamento" />
                   <FormControlLabel
-                    control={<Checkbox />}
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
+                    label="Pagamento"
+                  />
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
                     label="Modo de Uso"
                   />
                   <FormControlLabel
-                    control={<Checkbox />}
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
                     label="Acessibilidade"
                   />
-                  <FormControlLabel control={<Checkbox />} label="Outros" />
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        style={{
+                          color: "white",
+                        }}
+                      />
+                    }
+                    label="Outros"
+                  />
                 </div>
               </div>
             </AccordionDetails>
