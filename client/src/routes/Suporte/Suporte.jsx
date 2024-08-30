@@ -4,7 +4,6 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 //import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import Typography from "@mui/material/Typography";
 
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
@@ -13,11 +12,10 @@ import PerguntaFrequente from "../../components/PerguntaFrequente/PerguntaFreque
 
 export const Suporte = () => {
   return (
-    <div className={styles.containerSuporte}>
-      <div>
-        <h1>Perguntas Frequentes</h1>
-
-        <div>
+    <div className={styles.containerPagSuporte}>
+      <div className="row">
+        <h1 className="col-12">Perguntas Frequentes</h1>
+        <div className="col-12">
           <Accordion
             style={{
               backgroundColor: "rgba(82, 82, 82, 0.4)",
@@ -133,7 +131,7 @@ export const Suporte = () => {
           </Accordion>
         </div>
 
-        <div>
+        <div className="col-12">
           <PerguntaFrequente
             pergunta={"Como realizar o pagamento?"}
             produto={"AquaGuardians"}
@@ -165,32 +163,47 @@ export const Suporte = () => {
         </div>
       </div>
 
-      <div>
-        <h1>Ajuda</h1>
-        <div className={styles.containerDuvidas}>
-          <form className={styles.formDuvidas}>
-            <h1>Ainda tem dúvidas?</h1>
-            <p>Entre em contato conosco!</p>
-            <input type="email" placeholder="Insira seu email" />
-            <input
-              type="text"
-              placeholder="Nos conte sua dúvida..."
-              style={{ minHeight: "15rem" }}
-            />
-            <Button
-              variant="contained"
-              style={{
-                backgroundColor: "#fff",
-                fontFamily: "Montserrat",
-                fontWeight: "700",
-                color: "#1C1042",
-                margin: "0rem 0rem 2rem 0rem",
-              }}
-            >
-              Enviar
-            </Button>
-          </form>
-        </div>
+      <div className="row" style={{ padding: "4rem 0rem 0rem 0rem" }}>
+        <h1 className="cow-12">Ajuda</h1>
+        <form className="col-12">
+          <h1 className="col-12">Ainda tem dúvidas?</h1>
+          <p className="col-12">Entre em contato conosco!</p>
+          <input
+            type="email"
+            placeholder="Insira seu email"
+            className="col-12"
+            style={{
+              backgroundColor:"rgba(82, 82, 82, 0.4)", borderRadius:"0.5rem", border:"1px solid #fff",
+              fontSize:"14px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200",
+              padding:"0.3rem", margin:"0.8rem 0rem",
+              minHeight: "3rem"
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Nos conte sua dúvida..."
+            className="col-12"
+            style={{
+              backgroundColor:"rgba(82, 82, 82, 0.4)", borderRadius:"0.5rem", border:"1px solid #fff",
+              fontSize:"14px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200",
+              padding:"0.3rem", margin:"0.8rem 0rem",
+              minHeight: "15rem"
+            }}
+          />
+          <Button
+            variant="contained"
+            style={{
+              backgroundColor: "#fff",
+              fontFamily: "Montserrat",
+              fontWeight: "700",
+              color: "#1C1042",
+              margin: "0rem 0rem 2rem 0rem",
+            }}
+            className="col-12"
+          >
+            Enviar
+          </Button>
+        </form>
       </div>
     </div>
   );

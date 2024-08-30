@@ -3,10 +3,8 @@
     padding: 1rem 2rem;
 
     margin: 2rem 0rem;
-}
 
-.Card div{
-    padding: 0.5rem 0rem;
+    align-items: end;
 }
 
 .Card h2{
@@ -18,10 +16,12 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+
+    width: fit-content;
 }
 
 .Card h3{
-    font-size: 12px;
+    font-size: 10px;
     color: #DA5CD0;
     text-transform: uppercase;
 
@@ -30,8 +30,7 @@
     font-weight: 500;
     font-style: normal;
 
-    padding: 0rem 0.2rem;
-    margin: 0rem 0rem 0rem 2rem;
+    padding: 0rem 1rem;
 }
 
 .Card p{
@@ -42,4 +41,40 @@
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+
+    margin: 1rem 0rem;
+
+    width: 100%;
+}
+
+/* Media Queries para Responsividade */
+
+@media (max-width: 768px) { /* Para telas menores que 768px (tablets) */
+    .Card h2 {
+        font-size: 20px; /* Reduz o tamanho da fonte */
+    }
+    .Card h3 {
+        font-size: 8px; /* Reduz o tamanho da fonte */
+    }
+    .Card p {
+        font-size: 16px; /* Reduz o tamanho da fonte */
+    }
+}
+
+@media (max-width: 480px) { /* Para telas menores que 480px (smartphones) */
+    .Card h2 {
+        font-size: 18px; /* Reduz o tamanho da fonte */
+    }
+    .Card h3 {
+        font-size: 6px; /* Reduz o tamanho da fonte */
+    }
+    .Card p {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+    .Card .row {
+        flex-direction: column; /* Alinha as colunas verticalmente */
+    }
+    .Card .col-12 {
+        width: 100%; /* Define a largura das colunas para 100% */
+    }
 }
