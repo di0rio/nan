@@ -1,0 +1,109 @@
+.sobre {
+    background-color: #1C1042;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.sobre p {
+    padding: 100px 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sobre h1 {
+    margin-left: 40px;
+    font-size: 1.2em;
+}
+
+
+.Equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px;
+    font-family: "Poppins", sans-serif;
+    background-color: #1C1042;
+    color: white;
+}
+
+
+.Perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.Nome {
+    background-color: #18122B;
+    padding: 18px;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 207px;
+}
+
+.Social {
+    display: flex;
+    gap: 10px;
+    scale: 1.3;
+    margin-top: 35px;
+}
+
+.Desc {
+    width: 500px;
+    font-size: 16px;
+    text-align: end;
+    height: 300px;
+}
+
+
+ion-icon {
+    color: rgb(255, 255, 255);
+    height: 22px;
+    width: 22px;
+    margin-top: 0.55em;
+    margin-right: 7px;
+}
+
+ion-icon:hover {
+    color: rgb(226, 218, 218);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    .sobre {
+        align-items: center;
+    }
+    .sobre p {
+        font-size: 12px;
+        padding: 40px;
+    }
+    .sobre h1{
+        margin: 0px;
+    }
+    .Equipe{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .Perfil{
+        scale: 0.8;
+    }
+
+    .Social{
+        scale: 1;
+    }
+    .Desc{
+        height: auto;
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+}

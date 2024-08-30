@@ -1,4 +1,4 @@
-import styles from "./Footer.module.css"
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
@@ -22,7 +22,6 @@ const Footer = () => {
               <li>Uso</li>
               <li>Elementos</li>
               <li>Global</li>
-              
             </ul>
           </div>
           <div className={styles.col}>
@@ -39,21 +38,34 @@ const Footer = () => {
           </div>
           <div className={styles.col}>
             <h3>Notícias</h3>
-            <p>Receba atualizações semanalmente sobre nosso jogo, além de ficar por dentro de todas as novidades tecnológicas.</p>
-<div className= {styles.submeter}>
-            <form className={styles.email}>
-              <input type="email" placeholder="Seu email" />
-            </form>
-            <form className={styles.enviar}>
-            <button type="submit">Inscreva-se</button>
-            </form>
-            </div>
+            <p>
+              Receba atualizações semanalmente sobre nosso jogo, além de ficar
+              por dentro de todas as novidades tecnológicas.
+            </p>
+            <div className={styles.submeter}>
+              <form className={styles.formulario}>
+                <input
+                  className={styles.email}
+                  type="email"
+                  placeholder="Seu email"
+                />
 
-        <a className={styles.social}>
-        <ion-icon name="logo-instagram"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
-        <ion-icon name="logo-github"></ion-icon>
-        </a>
+                <button type="submit" className="enviar">
+                  Inscreva-se
+                </button>
+              </form>
+            </div>
+            <div>
+            <a  className={styles.ins}  href="https://www.instagram.com/">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a  className={styles.lin} href="https://www.linkedin.com/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a  className={styles.git} href="https://github.com/">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            </div>
           </div>
         </div>
       </div>
