@@ -16,40 +16,6 @@
   gap: 1em;
 }
 
-@media (max-width: 500px) {
-  .Container {
-  }
-
-  .ContainerCard {
-    display: flex;
-    flex-direction: column;
-    scale: 0.2;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Bloco {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1030px) {
-  .ContainerCard {
-    scale: 0.4;
-    background-color: red;
-    gap: 0;
-    margin: 0;
-  }
-  .Container {
-    padding: 0;
-    /* height: 800px; */
-    background-color: blue;
-  }
-}
-
 .Bloco {
   display: flex;
   flex-direction: row;
@@ -79,6 +45,7 @@
   flex-shrink: 0;
   border-radius: 3px;
 }
+
 .Card4 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 270px;
@@ -114,4 +81,103 @@
 img {
   border-radius: 3px;
   border: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media(min-width: 801px) and (max-width: 1400px){
+  .ContainerCard {
+    width: 800px;
+    flex-direction: column;
+  }
+
+  .Bloco {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .Card1 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card2 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card3 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card4 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card5 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card6 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card7 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+
+
+@media(max-width: 800px) {
+
+  .ContainerCard {
+    width: 400px;
+    flex-direction: column;
+  }
+
+  .Bloco {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .Card1 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card2 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card3 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card4 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card5 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card6 {
+    width: 100%;
+    height: 400px;
+  }
+  .Card7 {
+    width: 100%;
+    height: 400px;
+  }
+  
+
+
+
+
+
 }
