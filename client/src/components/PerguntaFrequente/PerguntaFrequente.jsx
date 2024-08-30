@@ -6,9 +6,9 @@ const PerguntaFrequente = ({ pergunta, produto, data, problema, resposta }) => {
       <div className={styles.Card}>
         <div className="row">
           <h2 className="col-12 col-md-8 col-lg-8">{pergunta}</h2>
-            <h3 className="col-4 col-md-3 col-lg-1">{produto}</h3>
-            <h3 className="col-4 col-md-3 col-lg-1">{data}</h3>
-            <h3 className="col-4 col-md-3 col-lg-1">{problema}</h3>
+            <h3 className="col-4 col-md-3 col-lg-2">{produto}</h3>
+            <h3 className="col-4 col-md-3 col-lg-2">{data}</h3>
+            <h3 className="col-4 col-md-3 col-lg-2">{problema}</h3>
         </div>
 
         <div className="row">

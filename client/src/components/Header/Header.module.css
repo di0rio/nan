@@ -1,51 +1,53 @@
 .back {
     background-image: url("../../assets/imgFundo.png");
-    /* Outras propriedades para ajustar o fundo */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 620px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 55%;
-    padding: 5px;
+@media (max-width: 768px) {
+    .back {
+        height: auto;
+        padding-bottom: 20%;
+    }
+
+    .back div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back .col-12 {
+        width: 100%;
+    }
+
+    .back img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .back p {
+        font-size: 12px;
+    }
+
+    .back .mx-md-5 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
-.logo{
-    margin-left: 30px;
+@media (max-width: 480px) {
+    .back img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .back p {
+        font-size: 10px;
+    }
+
+    .back .mx-md-5 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 }
-
-.logo img{
-    width: 100px;
-    height: 100px;
-}
-
-.links{
-    width: 50%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-
-}
-
-.links a{
-    color: white;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    transition: 0.5s;
-    text-decoration: none;
-}
-
-.links a:hover{
-    text-decoration: underline;
-    text-decoration-skip: initial;
-    text-underline-offset: 8px;
-    text-decoration-thickness: 1px;
-}
-
