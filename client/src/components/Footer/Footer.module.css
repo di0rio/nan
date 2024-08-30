@@ -2,6 +2,9 @@
   background-color: #24184c;
   color: #ffffff;
   padding: 50px 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .container {
@@ -18,52 +21,102 @@
 .col {
   flex: 1;
   list-style: none;
+  height: auto;
 }
+
 
 .col li {
   list-style: none;
+  height: auto;
+  margin-left: -40px;
+  margin-top: 5px;
+  text-decoration: underline;
 }
 
-.social {
-  height: 10px;
-  list-style: none;
-  display: flex;
-  gap: 10px;
-}
-
-.social li {
-  margin-right: 10px;
-  width: 25px;
-  height: 50px;
-}
-
-.submeter{
-  display: flex;
- 
-}
-
-.email input{
-  width: 200px;
+.col h3 {
   height: 35px;
-  border-radius: 7px;
-  opacity: 50%;
 }
 
-.enviar button{
-width: 100px;
-height: 40px;
-border-radius: 7px;
+.col p {
+  height: 95px;
 
 }
+
+
+.email {
+  width: 215px;
+  height: 50px;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  outline: 2px solid #7DA9FF;
+  background-color: #24184C;
+  color: #ffffff;
+
+
+}
+
+
+
+
+.submeter button {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: rgb(0, 0, 0);
+
+}
+
+
+.formulario {
+  display: flex;
+}
+
 
 ion-icon {
+  color: rgb(255, 255, 255);
   height: 22px;
   width: 22px;
   margin-top: 0.55em;
+  margin-right: 7px;
 }
 
 ion-icon:hover {
-  color: grey;
+  color: rgb(163, 163, 163);
   transition: 0.5s;
   cursor: pointer;
+}
+
+
+
+@media(max-width: 800px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    font-size: 12px;
+  }
+
+  .row {
+    font-size: 22px;
+    gap: 70px;
+    scale: 0.8;
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
+
+  .cow {
+    font-size: 100px;
+    gap: 5px;
+  }
+
+  .submeter {
+    margin-top: 90px;
+  }
 }

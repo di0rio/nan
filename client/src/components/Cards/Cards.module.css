@@ -1,0 +1,21 @@
+.Card {
+  background-color: rgba(52, 52, 52, 0.4);
+  border-radius: 10px;
+  width: 15em;
+  height: 17em;
+
+}
+
+
+
+
+@media(max-width: 770px){
+  .Card{
+      flex-direction: column;
+  }
+  .Card img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  }
+}
