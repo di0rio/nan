@@ -1,132 +1,109 @@
 .sobre {
     background-color: #1C1042;
-}
-
-
-.sobre p{
     color: white;
-}
-
-
-
-.sobre h2{
-    color: white;
-}
-
-
-.sobre h3{
-    color: white;
-height: 70px;
-}
-
-
-.sobre h4{
-    color: white;
-}
-
-
-
-.Card1{
+    font-family: "Poppins", sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
 
 }
 
-.Card1 p{
-    position: relative;
-    left: 100px;
-    width: 550px;
-    padding: 60px;
-
+.sobre p {
+    padding: 100px 100px;
+    text-align: center;
+    font-size: 18px;
 }
 
-.Card1 h4{
-    
-}
-
-
-.Card2{
-
-    border-radius: 10px;
-        width: 13em;
-        height: 15em;
-       position: relative;
-       left: 1200px;
-}
-
-.Card2 p {
-    width: 550px;
-    padding: 60px;
-    margin-left: -700px;
-    position: relative; 
-    top: -240px;
-
+.sobre h1 {
+    margin-left: 40px;
+    font-size: 1.2em;
 }
 
 
-
-
-.Card3{
+.Equipe {
     display: flex;
-    flex-direction: row;
-}
-
-.Card3 p {
-    position: relative;
-    left: 100px;
-    width: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
     padding: 60px;
+    font-family: "Poppins", sans-serif;
+    background-color: #1C1042;
+    color: white;
 }
 
 
-.Card4{
-    
-        border-radius: 10px;
-        width: 13em;
-        height: 15em;
-       position: relative;
-       left: 1200px;
-}
-
-
-
-.Card4 p{
-    position: relative;
-    left: 100px;
-    width: 550px;
-    padding: 60px;
-}
-
-
-.Card5{
+.Perfil {
     display: flex;
-    flex-direction: row;
-    padding: 10px;
-    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
-.Card5 p{
-    position: relative;
-    left: 100px;
-    width: 550px;
-    padding: 60px;
+.Nome {
+    background-color: #18122B;
+    padding: 18px;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 207px;
+}
+
+.Social {
+    display: flex;
+    gap: 10px;
+    scale: 1.3;
+    margin-top: 35px;
+}
+
+.Desc {
+    width: 500px;
+    font-size: 16px;
+    text-align: end;
+    height: 300px;
 }
 
 
-  
-  ion-icon {
+ion-icon {
     color: rgb(255, 255, 255);
     height: 22px;
     width: 22px;
     margin-top: 0.55em;
-  margin-right: 7px;
-  }
-  
-  ion-icon:hover {
+    margin-right: 7px;
+}
+
+ion-icon:hover {
     color: rgb(226, 218, 218);
     transition: 0.5s;
     cursor: pointer;
-  }
+}
 
+@media(max-width: 800px) {
+    .sobre {
+        align-items: center;
+    }
+    .sobre p {
+        font-size: 12px;
+        padding: 40px;
+    }
+    .sobre h1{
+        margin: 0px;
+    }
+    .Equipe{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .Perfil{
+        scale: 0.8;
+    }
 
+    .Social{
+        scale: 1;
+    }
+    .Desc{
+        height: auto;
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+}

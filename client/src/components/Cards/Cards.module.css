@@ -1,10 +1,9 @@
 .Card {
   background-color: rgba(52, 52, 52, 0.4);
   border-radius: 10px;
-  width: 13em;
-  height: 15em;
-  position: relative;
-  left: 50px;
+  width: 15em;
+  height: 17em;
+
 }
 
 
