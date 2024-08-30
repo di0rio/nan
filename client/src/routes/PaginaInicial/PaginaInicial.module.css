@@ -1,0 +1,34 @@
+.Container {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  color: white;
+
+  padding: 0em;
+  background-color: #1c1042;
+}
+
+.ContainerNovidades {
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  margin: 0;
+  padding: 2.75em;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.Carrossel img {
+  height: 310px;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
