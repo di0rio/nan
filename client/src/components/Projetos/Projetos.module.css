@@ -16,7 +16,41 @@
   gap: 1em;
 }
 
-.Bloco{
+@media (max-width: 500px) {
+  .Container {
+  }
+
+  .ContainerCard {
+    display: flex;
+    flex-direction: column;
+    scale: 0.2;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Bloco {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1030px) {
+  .ContainerCard {
+    scale: 0.4;
+    background-color: red;
+    gap: 0;
+    margin: 0;
+  }
+  .Container {
+    padding: 0;
+    /* height: 800px; */
+    background-color: blue;
+  }
+}
+
+.Bloco {
   display: flex;
   flex-direction: row;
   gap: 0.8em;
@@ -25,7 +59,7 @@
 .Card1 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 780px;
-  height: 525px; 
+  height: 525px;
   flex-shrink: 0;
   border-radius: 3px;
 }
@@ -33,7 +67,7 @@
 .Card2 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 560px;
-  height: 525px; 
+  height: 525px;
   flex-shrink: 0;
   border-radius: 3px;
 }
@@ -41,14 +75,14 @@
 .Card3 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 500px;
-  height: 380px; 
+  height: 380px;
   flex-shrink: 0;
   border-radius: 3px;
 }
 .Card4 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 270px;
-  height: 380px; 
+  height: 380px;
   flex-shrink: 0;
   border-radius: 3px;
 }
@@ -56,7 +90,7 @@
 .Card5 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 560px;
-  height: 380px; 
+  height: 380px;
   flex-shrink: 0;
   border-radius: 3px;
 }
@@ -64,7 +98,7 @@
 .Card6 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 780px;
-  height: 380px; 
+  height: 380px;
   flex-shrink: 0;
   border-radius: 3px;
 }
@@ -72,14 +106,12 @@
 .Card7 {
   background-color: rgba(52, 52, 52, 0.4);
   width: 560px;
-  height: 380px; 
+  height: 380px;
   flex-shrink: 0;
   border-radius: 3px;
 }
 
-img{
+img {
   border-radius: 3px;
   border: none;
 }
-
-
