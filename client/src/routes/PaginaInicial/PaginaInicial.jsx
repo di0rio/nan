@@ -8,7 +8,7 @@ export const PaginaInicial = () => {
     <div className={styles.Container}>
       <div className={styles.ContainerNovidades}>
         <div className={styles.Title}>
-          <h1>Novidades</h1>
+          <h2>Novidades</h2>
         </div>
         <div className={styles.Carrossel}>
           <Carousel />
@@ -17,7 +17,7 @@ export const PaginaInicial = () => {
 
       <div className={styles.ContainerProjetos}>
         <div className={styles.Title}>
-          <h1>Projetos</h1>
+          <h2>Projetos</h2>
         </div>
         <div className={styles.Card}>
           <Projetos />
