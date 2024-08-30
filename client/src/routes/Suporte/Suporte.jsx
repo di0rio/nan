@@ -14,13 +14,13 @@ export const Suporte = () => {
   return (
     <div className={styles.containerPagSuporte}>
       <div className="row">
-        <h1 className="col-12">Perguntas Frequentes</h1>
-        <div className="col-12">
+        <h1 className="col-10 mx-auto">Perguntas Frequentes</h1>
+        <div className="col-10 mx-auto">
           <Accordion
             style={{
               backgroundColor: "rgba(82, 82, 82, 0.4)",
               alignItems: "center",
-              margin: "0.85rem 0rem",
+              marginTop:"1rem",
             }}
           >
             <AccordionSummary
@@ -28,7 +28,7 @@ export const Suporte = () => {
               aria-controls="panel2-content"
               id="panel2-header"
             >
-              <h2 style={{ padding: "0rem 1em" }}>Filtros</h2>
+              <h2 className="mb-0">Filtros</h2>
             </AccordionSummary>
 
             <AccordionDetails
@@ -131,7 +131,7 @@ export const Suporte = () => {
           </Accordion>
         </div>
 
-        <div className="col-12">
+        <div className="col-10 mx-auto">
           <PerguntaFrequente
             pergunta={"Como realizar o pagamento?"}
             produto={"AquaGuardians"}
@@ -163,46 +163,53 @@ export const Suporte = () => {
         </div>
       </div>
 
-      <div className="row" style={{ padding: "4rem 0rem 0rem 0rem" }}>
-        <h1 className="cow-12">Ajuda</h1>
-        <form className="col-12">
-          <h1 className="col-12">Ainda tem dúvidas?</h1>
-          <p className="col-12">Entre em contato conosco!</p>
-          <input
-            type="email"
-            placeholder="Insira seu email"
-            className="col-12"
-            style={{
-              backgroundColor:"rgba(82, 82, 82, 0.4)", borderRadius:"0.5rem", border:"1px solid #fff",
-              fontSize:"14px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200",
-              padding:"0.3rem", margin:"0.8rem 0rem",
-              minHeight: "3rem"
-            }}
-          />
-          <input
-            type="text"
-            placeholder="Nos conte sua dúvida..."
-            className="col-12"
-            style={{
-              backgroundColor:"rgba(82, 82, 82, 0.4)", borderRadius:"0.5rem", border:"1px solid #fff",
-              fontSize:"14px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200",
-              padding:"0.3rem", margin:"0.8rem 0rem",
-              minHeight: "15rem"
-            }}
-          />
-          <Button
-            variant="contained"
-            style={{
-              backgroundColor: "#fff",
-              fontFamily: "Montserrat",
-              fontWeight: "700",
-              color: "#1C1042",
-              margin: "0rem 0rem 2rem 0rem",
-            }}
-            className="col-12"
-          >
-            Enviar
-          </Button>
+      <div className="row pt-5">
+        <h1 className="col-10 mx-auto">Ajuda</h1>
+        <form
+          className="col-10 mx-auto d-flex flex-column"
+          style={{backgroundColor: "rgba(82, 82, 82, 0.4)", borderRadius: "0.4rem", padding:"3rem 4rem", alignItems:"center", justifyContent:"center", maxWidth:"35rem"
+          }}>
+            <h1 className="col-12 mx-auto">Ainda tem dúvidas?</h1>
+              <p
+              className="col-12 mx-auto"
+              style={{
+                fontSize: "12px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200"}}
+              >Entre em contato conosco!</p>
+            <input
+              type="email"
+              placeholder="Insira seu email"
+              className="col-12"
+              style={{
+                backgroundColor:"rgba(82, 82, 82, 0.4)", borderRadius:"0.5rem", border:"1px solid rgba(255, 255, 255, 0.4)",
+                fontSize:"14px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200",
+                padding:"0.3rem", margin:"0.8rem 0rem",
+                minHeight: "3rem"
+              }}
+            />
+            <input
+              type="text"
+              placeholder="Nos conte sua dúvida..."
+              className="col-12"
+              style={{
+                backgroundColor:"rgba(82, 82, 82, 0.4)", borderRadius:"0.5rem", border:"1px solid rgba(255, 255, 255, 0.4)",
+                fontSize:"14px", color:"#fff", fontFamily:"Poppins, sans-serif", fontWeight:"200",
+                padding:"0.3rem", margin:"0.8rem 0rem",
+                minHeight: "15rem"
+              }}
+            />
+            <Button
+              variant="contained"
+              style={{
+                backgroundColor: "#fff",
+                fontFamily: "Montserrat",
+                fontWeight: "700",
+                color: "#1C1042",
+                maxWidth:"7rem"
+              }}
+              className="col-12"
+            >
+              Enviar
+            </Button>
         </form>
       </div>
     </div>

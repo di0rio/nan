@@ -15,34 +15,38 @@ const Header = () => {
   return (
     <>
     <div className={styles.back}>
-    <div className={styles.container}>
-        <div className={styles.logo}>
-          <img src={logo} alt="" />
-        </div>
-        <div className={styles.links}>
-         <Link to={"/"}><p>PÁGINA INICIAL</p></Link>
-         <Link to={"/suporte"}><p>SUPORTE</p></Link>
-         <Link to={"/sobre"}><p>SOBRE NÓS</p></Link>
-        </div>
-    </div>
-    </div>
-
-    <div className={styles.back}>
       <div
-      className="d-flex row"
-      // style={{
-      // backgroundImage:"url(../../assets/imgFundo.png)", backgroundSize:"cover", backgroundPosition:"center", backgroundRepeat:"no-repeat", height:"620px"}}
-      
-      >
-        
-        <div className="col-12 col-md-1 col-lg-1">
-         img
-        </div>
-        <div className="d-flex flex-column col-12 flex-md-row col-md-11 col-lg-11 justify-content-sm-center justify-content-md-end">
-          <Link to={"/"}><p>PÁGINA INICIAL</p></Link>
-          <Link to={"/suporte"}> <p>SUPORTE</p></Link>
-          <Link to={"/sobre"}> <p>SOBRE NÓS</p></Link> 
-        </div>
+        className="d-flex flex-column align-items-center justify-content-center flex-md-row justify-content-md-between"
+        style={{}}>
+          <div className="col-12 col-md-1 col-lg-1 mt-md-2 ms-md-2 d-flex align-items-center justify-content-center">
+            <img src={logo} alt="" style={{width: "80px", height: "80px"}}/>
+          </div>
+
+          <div className="d-flex flex-column col-12 flex-md-row col-md-6 col-lg-6 justify-content-center align-items-center justify-content-md-end mt-md-5">
+            <Link
+              to={"/"}
+              style={{
+                color: "white", fontSize: "14px", fontFamily: "Montserrat, sans-serif", transition: "0.5s", textDecoration:" none",
+                ":hover": {textDecoration: "underline", textDecorationSkip: "initial", textUnderlineOffset: "8px", textDecorationThickness: "1px"},
+              }}
+              className="mx-md-5"
+              > <p>PÁGINA INICIAL</p>
+            </Link>
+            <Link
+              to={"/suporte"}
+              style={{
+                color: "white", fontSize: "14px", fontFamily: "Montserrat, sans-serif", transition: "0.5s", textDecoration:" none",
+                "--hover": {textDecoration: "underline", textDecorationSkip: "initial", textUnderlineOffset: "8px", textDecorationThickness: "1px"},
+              }}
+              className="mx-md-5"> <p>SUPORTE</p></Link>
+            <Link
+              to={"/sobre"}
+              style={{
+                color: "white", fontSize: "14px", fontFamily: "Montserrat, sans-serif", transition: "0.5s", textDecoration:" none",
+                ":hover": {textDecoration: "underline", textDecorationSkip: "initial", textUnderlineOffset: "8px", textDecorationThickness: "1px"},
+              }}
+              className="mx-md-5"> <p>SOBRE NÓS</p></Link> 
+          </div>
       </div>
     </div>
   </>
