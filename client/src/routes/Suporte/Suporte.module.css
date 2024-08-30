@@ -1,9 +1,9 @@
-.containerSuporte{
+.containerPagSuporte{
     background-color: #1C1042;
-    padding: 4rem;
+    padding:4rem;
 }
 
-.containerSuporte h1{
+.containerPagSuporte h1{
     font-size: 34px;
     color: #fff;
 
@@ -13,7 +13,7 @@
     font-style: normal;
 }
 
-.containerSuporte h2{
+.containerPagSuporte h2{
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
@@ -24,7 +24,7 @@
     font-style: normal;
 }
 
-.containerSuporte h3{
+.containerPagSuporte h3{
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
@@ -35,7 +35,7 @@
     font-style: normal;
 }
 
-.containerSuporte FormControlLabel{
+.containerPagSuporte FormControlLabel{
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
