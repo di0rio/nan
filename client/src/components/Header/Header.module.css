@@ -4,7 +4,7 @@
     background-size: cover; /* Ajusta a imagem para cobrir toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
-    height: 700px;
+    height: 620px;
 }
 
 .container{
@@ -20,8 +20,8 @@
 }
 
 .logo img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .links{
@@ -36,7 +36,7 @@
 
 .links a{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
     transition: 0.5s;
     text-decoration: none;
@@ -44,7 +44,7 @@
 
 .links a:hover{
     text-decoration: underline;
-    text-decoration-skip: ink;
+    text-decoration-skip: initial;
     text-underline-offset: 8px;
     text-decoration-thickness: 1px;
 }
