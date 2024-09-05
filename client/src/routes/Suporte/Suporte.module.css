@@ -1,112 +1,110 @@
-.containerPagSuporte{
-    background-color: #1C1042;
-    padding: 4rem;
+.containerPagSuporte {
+  background-color: #1c1042;
+  padding: 0rem 4rem;
 }
 
-.containerPagSuporte h1{
-    font-size: 26px;
-    color: #fff;
+.containerPagSuporte h1 {
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
 
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  margin: 2.75rem 0rem;
 }
 
-.containerPagSuporte h2{
-    font-size: 14px;
-    color: #fff;
-    text-transform: uppercase;
+.containerPagSuporte h2 {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
 
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
-.containerFiltroDetails h3{
-    font-size: 14px;
-    color: #fff;
-    text-transform: uppercase;
+.containerFiltroDetails h3 {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
 
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
-.containerFiltroDetails FormControlLabel{
-    font-size: 10px;
-    color: #fff;
-    text-transform: uppercase;
+.containerFiltroDetails FormControlLabel {
+  font-size: 10px;
+  color: #fff;
+  text-transform: uppercase;
 
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
-.containerFiltroDetails label{
-    font-size: 10px;
-    color: #fff;
+.containerFiltroDetails label {
+  font-size: 10px;
+  color: #fff;
 
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
-
-.containerFiltro{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.containerFiltro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.containerFiltroDetails{
-    display: flex;
-    flex-direction: column;
+.containerFiltroDetails {
+  display: flex;
+  flex-direction: column;
 
-    margin: 0rem 4rem
+  margin: 0rem 4rem;
 }
 
 @media (max-width: 768px) {
-    .containerPagSuporte h1 {
-      font-size: 22px;
-    }
-  
-    .containerFiltroDetails h3 {
-      font-size: 12px;
-    }
-
-    .containerFiltroDetails p {
-        font-size: 12px;
-    }
-  
-    .containerFiltroDetails FormControlLabel {
-      font-size: 8px;
-    }
-  
-    .containerFiltroDetails label {
-      font-size: 8px;
-    }
-  
-    .containerFiltro {
-      flex-direction: column;
-    }
+  .containerPagSuporte h1 {
+    font-size: 22px;
   }
-  
-  @media (max-width: 480px) {
-    .containerPagSuporte h1 {
-      font-size: 18px;
-    }
-  
-    .containerFiltroDetails h3 {
-      font-size: 10px;
-    }
 
-    .containerFiltroDetails p {
-        font-size: 8px;
-    }
-  
-    .containerFiltroDetails FormControlLabel {
-      font-size: 6px;
-    }
-  
-    .containerFiltroDetails label {
-      font-size: 6px;
-    }
+  .containerFiltroDetails h3 {
+    font-size: 12px;
   }
+
+  .containerFiltroDetails p {
+    font-size: 12px;
+  }
+
+  .containerFiltroDetails FormControlLabel {
+    font-size: 8px;
+  }
+
+  .containerFiltroDetails label {
+    font-size: 8px;
+  }
+
+  .containerFiltro {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerPagSuporte h1 {
+    font-size: 18px;
+  }
+
+  .containerFiltroDetails h3 {
+    font-size: 10px;
+  }
+
+  .containerFiltroDetails p {
+    font-size: 8px;
+  }
+
+  .containerFiltroDetails FormControlLabel {
+    font-size: 6px;
+  }
+
+  .containerFiltroDetails label {
+    font-size: 6px;
+  }
+}

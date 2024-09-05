@@ -1,48 +1,45 @@
-import Cards from "../../components/Cards/Cards";
+import IntegranteEquipe from "../../components/IntegranteEquipe/IntegranteEquipe";
 import styles from "./Sobre.module.css";
 
 function Sobre() {
   return (
     <section id="quem-somos">
       <div className={styles.sobre}>
-        <h1>Quem somos nós?</h1>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis tt exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia
-          deserunt mollit anim id est laborum."
-        </p>
-        <h1>Equipe</h1>
+        <div>
+          <h1>Quem somos nós?</h1>
+          <h2 className="col-12 col-md-12 mx-auto">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis tt exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </h2>
+          <h1>Equipe</h1>
         </div>
 
-
-        <div className={styles.Equipe}>
-          <div className={styles.Perfil}>
-            <Cards></Cards>
-            <div className={styles.Nome}>
-              <p>Anelize Nardelli</p>
-            </div>
-            <div className={styles.Social}>
-              <a className={styles.ins} href="https://www.instagram.com/">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-              <a className={styles.lin} href="https://www.linkedin.com/">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-              <a className={styles.git} href="https://github.com/">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-              <a className={styles.email} href="https://mail.google.com//">
-                <ion-icon name="mail-outline"></ion-icon>
-              </a>
-            </div>
-          </div>
-
-          <div className={styles.Desc}>
-            <p>
+        <div className="col-10 col-md-8 mx-auto">
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <IntegranteEquipe
+              nomeIntegrante={"Anelize Nardelli"}
+              // img={}
+              altImg={"Foto da integrante Anelize Nardelli"}
+              linkIg={""}
+              linkLinkedIn={""}
+              linkGitHub={""}
+              linkEmail={""}
+              className="col-10 col-md-2"
+            />
+            <p
+              className="col-10 col-md-8 text-center text-md-end fs-6"
+              style={{
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: "200",
+                color: "#fff",
+                maxWidth: "37rem"
+              }}
+            >
               Estudante, dançarina e programadora, meu nome é Anelize Nardelli,
               eu tenho 17 anos de idade e estou cursando o Ensino Médio Técnico
               em Análise e Desenvolvimento de Sistemas no SENAI Jau. Atuando
@@ -52,32 +49,17 @@ function Sobre() {
               tenho experiência como desenvolvedora Full Stack.
             </p>
           </div>
-        </div>
 
-        <div className={styles.Equipe} style={{ flexDirection: "row-reverse" }}>
-          <div className={styles.Perfil}>
-            <Cards></Cards>
-            <div className={styles.Nome}>
-              <p>Cauã Diório</p>
-            </div>
-            <div className={styles.Social}>
-              <a className={styles.ins} href="https://www.instagram.com/">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-              <a className={styles.lin} href="https://www.linkedin.com/">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-              <a className={styles.git} href="https://github.com/">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-              <a className={styles.email} href="https://mail.google.com//">
-                <ion-icon name="mail-outline"></ion-icon>
-              </a>
-            </div>
-          </div>
-
-          <div className={styles.Desc}>
-            <p>
+          <div className="d-flex flex-column-reverse flex-md-row justify-content-between align-items-center mt-5 mt-md-2">
+            <p
+              className="col-10 col-md-8 text-center text-md-start fs-6"
+              style={{
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: "200",
+                color: "#fff",
+                maxWidth: "37rem"
+              }}
+            >
               Tenho 17 anos. Sou apaixonado pela área da programação e estou me
               dedicando há 2 anos como estudante técnico em DS. No momento,
               minha imersão se concentra no front-end, mas busco aprender mais o
@@ -86,33 +68,38 @@ function Sobre() {
               CSS(Bootstrap, Material-UI e Tailwind), Java, python, Git, C#,
               API, .NET, MAUI(Android).
             </p>
-          </div>
-        </div>
-
-        <div className={styles.Equipe}>
-          <div className={styles.Perfil}>
-            <Cards></Cards>
-            <div className={styles.Nome}>
-              <p>Felipe Salmazo</p>
-            </div>
-            <div className={styles.Social}>
-              <a className={styles.ins} href="https://www.instagram.com/">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-              <a className={styles.lin} href="https://www.linkedin.com/">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-              <a className={styles.git} href="https://github.com/">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-              <a className={styles.email} href="https://mail.google.com//">
-                <ion-icon name="mail-outline"></ion-icon>
-              </a>
-            </div>
+            <IntegranteEquipe
+              nomeIntegrante={"Cauã Diório"}
+              // img={}
+              altImg={"Foto do integrante Cauã Diório"}
+              linkIg={""}
+              linkLinkedIn={""}
+              linkGitHub={""}
+              linkEmail={""}
+              className="col-10 col-md-2"
+            />
           </div>
 
-          <div className={styles.Desc}>
-            <p>
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mt-5 mt-md-2">
+          <IntegranteEquipe
+              nomeIntegrante={"Felipe Salmazo"}
+              // img={}
+              altImg={"Foto do integrante Felipe Salmazo"}
+              linkIg={""}
+              linkLinkedIn={""}
+              linkGitHub={""}
+              linkEmail={""}
+              className="col-10 col-md-2"
+            />
+            <p
+              className="col-10 col-md-8 text-center text-md-end fs-6"
+              style={{
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: "200",
+                color: "#fff",
+                maxWidth: "37rem"
+              }}
+            >
               Felipe Salmazo, um jovem de 18 anos, desde a infância sou
               apaixonado por programação e games. Adoro a academia, tenho prazer
               em ler e explorar novas tecnologias. Embora goste de criar games,
@@ -121,33 +108,18 @@ function Sobre() {
               empresa Not a Number.
             </p>
           </div>
-        </div>
 
-        <div className={styles.Equipe} style={{ flexDirection: "row-reverse" }}>
-          <div className={styles.Perfil}>
-            <Cards></Cards>
-            <div className={styles.Nome}>
-              <p>Gustavo Lara</p>
-            </div>
-            <div className={styles.Social}>
-              <a className={styles.ins} href="https://www.instagram.com/">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-              <a className={styles.lin} href="https://www.linkedin.com/">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-              <a className={styles.git} href="https://github.com/">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-              <a className={styles.email} href="https://mail.google.com//">
-                <ion-icon name="mail-outline"></ion-icon>
-              </a>
-            </div>
-          </div>
-
-          <div className={styles.Desc}>
-            <p>
-              Olá, sou Gustavo, um amante da tecnologia. Como Desenvolvedor
+          <div className="d-flex flex-column-reverse flex-md-row justify-content-between align-items-center mt-5 mt-md-2">
+            <p
+              className="col-10 col-md-8 text-center text-md-start fs-6"
+              style={{
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: "200",
+                color: "#fff",
+                maxWidth: "37rem"
+              }}
+            >
+              Olá, sou Gustavo, um amante da tecnologia.Como Desenvolvedor
               iniciante, tenho experiência com JavaScript, React, SQL Server,
               .NET e C#. Minha paixão pela tecnologia não se limita apenas ao
               presente, mas também molda meu futuro. No ano de 2025, planejo
@@ -155,33 +127,38 @@ function Sobre() {
               área de tecnologia. Estou ansioso para explorar novos horizontes e
               enfrentar desafios futuros nesta área em constante evolução.
             </p>
-          </div>
-        </div>
-
-        <div className={styles.Equipe}>
-          <div className={styles.Perfil}>
-            <Cards></Cards>
-            <div className={styles.Nome}>
-              <p>Pedro Bagarini</p>
-            </div>
-            <div className={styles.Social}>
-              <a className={styles.ins} href="https://www.instagram.com/">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-              <a className={styles.lin} href="https://www.linkedin.com/">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-              <a className={styles.git} href="https://github.com/">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-              <a className={styles.email} href="https://mail.google.com//">
-                <ion-icon name="mail-outline"></ion-icon>
-              </a>
-            </div>
+            <IntegranteEquipe
+              nomeIntegrante={"Gustavo Lara"}
+              // img={}
+              altImg={"Foto do integrante Gustavo Lara"}
+              linkIg={""}
+              linkLinkedIn={""}
+              linkGitHub={""}
+              linkEmail={""}
+              className="col-10 col-md-2"
+            />
           </div>
 
-          <div className={styles.Desc}>
-            <p>
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mt-5 mt-md-2 mb-5">
+            <IntegranteEquipe
+              nomeIntegrante={"Pedro Bagarini"}
+              // img={}
+              altImg={"Foto do integrante Pedro Bagarini"}
+              linkIg={""}
+              linkLinkedIn={""}
+              linkGitHub={""}
+              linkEmail={""}
+              className="col-10 col-md-2"
+            />
+            <p
+              className="col-10 col-md-8 text-center text-md-end fs-6"
+              style={{
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: "200",
+                color: "#fff",
+                maxWidth: "37rem"
+              }}
+            >
               Olá, meu nome é Pedro e sou um estudante de tecnologia apaixonado
               por desenvolvimento. Como desenvolvedor iniciante, possuo
               experiência prática com JavaScript, React, SQL Server, .NET e C#.
@@ -190,6 +167,7 @@ function Sobre() {
               policial militar.
             </p>
           </div>
+        </div>
       </div>
     </section>
   );
