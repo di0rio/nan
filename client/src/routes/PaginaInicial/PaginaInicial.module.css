@@ -14,10 +14,13 @@
 }
 
 .Title {
+  margin: 2.75em 4em;
+}
+
+.Title h1{
+  font-size: 2.3em;
+  font-weight: 400;
   margin: 0;
-  padding: 2.75em;
-  font-size: 0.8em;
-  margin-top: 1em;
 }
 
 .Carrossel img {

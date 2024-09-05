@@ -14,13 +14,12 @@ export const Suporte = () => {
   return (
     <div className={styles.containerPagSuporte}>
       <div className="row">
-        <h1 className="col-10 mx-auto">Perguntas Frequentes</h1>
-        <div className="col-10 mx-auto">
+        <h1 className="col-12 mx-auto">Perguntas Frequentes</h1>
+        <div className="col-12 mx-auto">
           <Accordion
             style={{
               backgroundColor: "rgba(82, 82, 82, 0.4)",
               alignItems: "center",
-              marginTop:"1rem",
             }}
           >
             <AccordionSummary
@@ -131,7 +130,7 @@ export const Suporte = () => {
           </Accordion>
         </div>
 
-        <div className="col-10 mx-auto">
+        <div className="col-12 mx-auto">
           <PerguntaFrequente
             pergunta={"Como realizar o pagamento?"}
             produto={"AquaGuardians"}
@@ -163,11 +162,11 @@ export const Suporte = () => {
         </div>
       </div>
 
-      <div className="row pt-5">
-        <h1 className="col-10 mx-auto">Ajuda</h1>
+      <div className="row">
+        <h1 className="col-12 mx-auto">Ajuda</h1>
         <form
-          className="col-10 mx-auto d-flex flex-column"
-          style={{backgroundColor: "rgba(82, 82, 82, 0.4)", borderRadius: "0.4rem", padding:"3rem 4rem", alignItems:"center", justifyContent:"center", maxWidth:"35rem"
+          className="col-12 mx-auto d-flex flex-column"
+          style={{backgroundColor: "rgba(82, 82, 82, 0.4)", borderRadius: "0.4rem", padding:"0rem 4rem 2.75rem 4rem", alignItems:"center", justifyContent:"center", maxWidth:"45rem", marginBottom:"4rem"
           }}>
             <h1 className="col-12 mx-auto">Ainda tem dúvidas?</h1>
               <p
