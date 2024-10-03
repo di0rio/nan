@@ -50,7 +50,7 @@ const Footer = () => {
                   placeholder="Seu email"
                 />
 
-                <button type="submit" className="enviar">
+                <button type="submit" className={styles.enviar}>
                   Inscreva-se
                 </button>
               </form>

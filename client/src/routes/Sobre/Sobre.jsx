@@ -1,6 +1,8 @@
 import IntegranteEquipe from "../../components/IntegranteEquipe/IntegranteEquipe";
 import styles from "./Sobre.module.css";
 
+import a from "../../assets/IMG-20230810-WA0008.jpg";
+
 function Sobre() {
   return (
     <section id="quem-somos">
@@ -37,7 +39,7 @@ function Sobre() {
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "200",
                 color: "#fff",
-                maxWidth: "37rem"
+                maxWidth: "37rem",
               }}
             >
               Estudante, dançarina e programadora, meu nome é Anelize Nardelli,
@@ -57,7 +59,7 @@ function Sobre() {
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "200",
                 color: "#fff",
-                maxWidth: "37rem"
+                maxWidth: "37rem",
               }}
             >
               Tenho 17 anos. Sou apaixonado pela área da programação e estou me
@@ -70,7 +72,7 @@ function Sobre() {
             </p>
             <IntegranteEquipe
               nomeIntegrante={"Cauã Diório"}
-              // img={}
+              img={a}
               altImg={"Foto do integrante Cauã Diório"}
               linkIg={""}
               linkLinkedIn={""}
@@ -81,7 +83,7 @@ function Sobre() {
           </div>
 
           <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mt-5 mt-md-2">
-          <IntegranteEquipe
+            <IntegranteEquipe
               nomeIntegrante={"Felipe Salmazo"}
               // img={}
               altImg={"Foto do integrante Felipe Salmazo"}
@@ -97,7 +99,7 @@ function Sobre() {
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "200",
                 color: "#fff",
-                maxWidth: "37rem"
+                maxWidth: "37rem",
               }}
             >
               Felipe Salmazo, um jovem de 18 anos, desde a infância sou
@@ -116,7 +118,7 @@ function Sobre() {
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "200",
                 color: "#fff",
-                maxWidth: "37rem"
+                maxWidth: "37rem",
               }}
             >
               Olá, sou Gustavo, um amante da tecnologia.Como Desenvolvedor
@@ -156,7 +158,7 @@ function Sobre() {
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "200",
                 color: "#fff",
-                maxWidth: "37rem"
+                maxWidth: "37rem",
               }}
             >
               Olá, meu nome é Pedro e sou um estudante de tecnologia apaixonado

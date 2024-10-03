@@ -24,7 +24,6 @@
   height: auto;
 }
 
-
 .col li {
   list-style: none;
   height: auto;
@@ -39,9 +38,7 @@
 
 .col p {
   height: 95px;
-
 }
-
 
 .email {
   width: 215px;
@@ -49,15 +46,23 @@
   padding-left: 10px;
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
-  outline: 2px solid #7DA9FF;
-  background-color: #24184C;
+  outline: 2px solid #7da9ff;
+  background-color: #24184c;
   color: #ffffff;
-
-
 }
 
+.enviar {
+  background-color: white;
+  border: none;
 
+  font-size: 14px;
+}
 
+.enviar:hover {
+  background-color: rgb(58, 59, 53);
+  transition: 0.4s;
+  color: white;
+}
 
 .submeter button {
   width: 100px;
@@ -68,14 +73,11 @@
   font-weight: 400;
   font-style: bold;
   color: rgb(0, 0, 0);
-
 }
-
 
 .formulario {
   display: flex;
 }
-
 
 ion-icon {
   color: rgb(255, 255, 255);
@@ -91,9 +93,7 @@ ion-icon:hover {
   cursor: pointer;
 }
 
-
-
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .footer {
     padding: 20px;
   }
@@ -118,5 +118,9 @@ ion-icon:hover {
 
   .submeter {
     margin-top: 90px;
+  }
+
+  .enviar {
+    font-size: 14px;
   }
 }
