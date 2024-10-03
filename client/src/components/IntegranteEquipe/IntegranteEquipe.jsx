@@ -4,7 +4,7 @@ const IntegranteEquipe = ({ img, altImg, nomeIntegrante, linkIg, linkLinkedIn, l
   return (
     <div>
       <div className={styles.Foto}>
-        <img src={img} alt={altImg} />
+        <img src={img} width={240} height={288} alt={altImg} />
         <div className={styles.boxNome}>{nomeIntegrante}</div>
       </div>
       <div className={styles.social}>
