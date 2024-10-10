@@ -35,7 +35,6 @@ Na Not a Number, somos apaixonados por transformar ideias em soluções tecnoló
 
 - **Desenvolvimento de Software:** Soluções web e mobile personalizadas, APIs e integrações.
 - **Design e UX/UI:** Interfaces intuitivas e experiências excepcionais.
-- **Marketing Digital:** Estratégias para aumentar o alcance e o impacto de sua marca.
 - **Consultoria Tecnológica:** Assessoria para otimizar seus processos e alcançar resultados.
 
 ---
